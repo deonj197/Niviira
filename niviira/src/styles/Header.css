@@ -1,5 +1,53 @@
 .header {
-  background-color: #222;
-  padding: 20px;
+  background-color: rgba(255,255,255,0);
   color: white;
+  position: absolute;
+  width: 100%;
+
+
+  display: flex;
+}
+
+.title {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: Trebuchet MS;
+  font-size: 30px;
+}
+
+.titleWrapper {
+  flex: 3;
+  /*background-color: red;*/
+}
+
+.navBar {
+  flex: 1;
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  align-items: flex-end;
+  float: right;
+}
+
+.navItem {
+  /*background-color: green;*/
+  margin-right: 30px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navItemActiive {
+  margin-right: 30px;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  background-color: green;
+  padding: 10px;
+}
+
+.navWrapper {
+  flex: 1;
+  /*background-color: blue;*/
 }

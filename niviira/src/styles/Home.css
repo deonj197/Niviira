@@ -1,0 +1,59 @@
+.html .body {
+  height: 100%;
+}
+
+.Background-Image {
+  /* Full height */
+     flex:1;
+     height: 100%;
+     position: fixed;
+     background-size: cover;
+}
+
+.Main-Page {
+  height: 100%;
+  display: flex;
+}
+
+.Upper-Panel {
+  margin-top: 75px;
+  width: 100%;
+  height: 55%;
+  background-color: rgba(255,255,255,0.15);
+  position: absolute;
+  display: flex;
+}
+
+.Book-Cover-Wrapper {
+  display: flex;
+  flex:1;
+  height: 100%;
+  /*background-color: red;*/
+}
+
+.Upper-Panel-Content {
+  flex: 2;
+  height: 100%;
+  /*background-color: blue;*/
+}
+
+.Cover {
+  margin: 40px;
+  width: 40%;
+  align-self: center;
+}
+
+.Order-Now {
+  margin-top: 30px;
+  height: 10%;
+  color: white;
+  background-color: green;
+  border: green;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Price {
+  color: white;
+  margin-top: 50px;
+}
