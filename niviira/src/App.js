@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Background from "./images/woods.jpg";
 import './App.css';
 import { Header } from './components/common';
 import { Home } from './components/Home';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        <img src={Background} className='Background-Image'/>
         <Header />
+        <Home />
       </div>
     );
   }

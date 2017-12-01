@@ -1,1 +1,8 @@
 /* Global STyles */
+
+.Background-Image {
+     flex:1;
+     height: 100%;
+     position: fixed;
+     background-size: cover;
+}

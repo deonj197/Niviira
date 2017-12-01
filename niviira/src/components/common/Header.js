@@ -7,14 +7,22 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="titleWrapper">
-          <p className="title">Niviira</p>
+          <h1 className="title">Niviira</h1>
         </div>
         <div className="navWrapper">
           <ul className="navBar">
-            <li className="navItemActiive">Home</li>
-            <li className="navItem">Books</li>
-            <li className="navItem">Merchandise</li>
-            <li className="navItem">About</li>
+            <li>
+              <button className="navItemActiive">Home</button>
+            </li>
+            <li>
+              <button className="navItem">Books</button>
+            </li>
+            <li>
+              <button className="navItem">Merchandise</button>
+            </li>
+            <li>
+              <button className="navItem">About</button>
+            </li>
           </ul>
         </div>
       </div>
