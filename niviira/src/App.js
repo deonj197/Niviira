@@ -9,8 +9,10 @@ class App extends Component {
     return (
       <div className="App">
         <img src={Background} className='Background-Image'/>
-        <Header />
+        <div className="Backdrop-View"/>
         <Home />
+        <Header />
+
       </div>
     );
   }
