@@ -7,8 +7,10 @@ div p {
 }
 
 .Main-Page {
-  height: 100%;
+  flex: 1;
+  width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 .Upper-Panel {
@@ -64,16 +66,15 @@ div p {
 }
 
 .Lower-Panel {
-  flex:1;
+  flex: 1;
   display: flex;
 }
 
 .Body-Content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+
 }
 
 .Lower-Panel-Left {

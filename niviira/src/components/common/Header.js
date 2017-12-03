@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Routes from '../Routes'
+import { Link } from 'react-router-dom';
+
 import '../../styles/Header.css'
 
 
@@ -12,16 +15,16 @@ class Header extends Component {
         <div className="navWrapper">
           <ul className="navBar">
             <li>
-              <button className="navItemActiive">Home</button>
+                <Link className="LinkActive" to="/">Home</Link>
             </li>
             <li>
-              <button className="navItem">Books</button>
+                <Link className="Link" to="/books">Books</Link>
             </li>
             <li>
-              <button className="navItem">Merchandise</button>
+                <Link className="Link" to="/merchandise">Merchandise</Link>
             </li>
             <li>
-              <button className="navItem">About</button>
+              <Link className="Link" to="/about">About</Link>
             </li>
           </ul>
         </div>
