@@ -18,8 +18,11 @@ class Home extends Component {
           <div className="Upper-Panel">
             <div className="Book-Cover-Wrapper">
               <img src={Cover} className="Cover"/>
-              <div>
-                <h3 className="Price">$17.99</h3>
+              <div className="Book-Info">
+                <h2 style={{color:'#FFD600'}}>Available Now</h2>
+                <h3>Book One:</h3>
+                <h4>Niviira XXIV - Divinity Begins</h4>
+                <h4 className="Price">$17.99</h4>
                 <button type="button" className="Order-Now">Order Now</button>
               </div>
             </div>

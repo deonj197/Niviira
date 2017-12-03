@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Routes from '../Routes'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import '../../styles/Header.css'
 
@@ -15,16 +15,16 @@ class Header extends Component {
         <div className="navWrapper">
           <ul className="navBar">
             <li>
-                <Link className="LinkActive" to="/">Home</Link>
+                <NavLink exact className="Link" activeClassName="LinkActive" to="/">Home</NavLink>
             </li>
             <li>
-                <Link className="Link" to="/books">Books</Link>
+                <NavLink className="Link" activeClassName="LinkActive" to="/books">Books</NavLink>
             </li>
             <li>
-                <Link className="Link" to="/merchandise">Merchandise</Link>
+                <NavLink className="Link" activeClassName="LinkActive" to="/merchandise">Merchandise</NavLink>
             </li>
             <li>
-              <Link className="Link" to="/about">About</Link>
+              <NavLink className="Link" activeClassName="LinkActive" to="/about">About</NavLink>
             </li>
           </ul>
         </div>
