@@ -14,12 +14,10 @@ div p {
 }
 
 .Upper-Panel {
-  padding-top: 60px;
-  padding-bottom: 40px;
   width: 100%;
-  height: 55%;
-  background-color: rgba(255,255,255,0.1);
+
   display: flex;
+  align-items: center;
 }
 
 .Book-Cover-Wrapper {
@@ -46,7 +44,10 @@ div p {
 }
 
 .Cover {
-  margin: 40px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-right: 50px;
+  margin-left: 90px;
   width: 40%;
   align-self: center;
   border-radius: 10px;
@@ -80,7 +81,6 @@ div p {
 }
 
 .Lower-Panel-Left {
-  background-color: rgba(255,255,255,0.65);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -90,10 +90,17 @@ div p {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0,0,0,0.4);
+
 }
 
 .Media-Icons {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sellers-List {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -107,9 +114,17 @@ div p {
 }
 
 .Sellers {
+  margin-bottom: 20px;
   padding-top: 20px;
-  color: #FF5722;
   text-align: center;
+  color: #BF360C;
+}
+
+.Sellers-Box {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 90px;
 }
 
 .Social-Media-Icon {
@@ -117,9 +132,9 @@ div p {
 }
 
 .Sellers-Icon {
-  background-color: rgba(255,255,255,0.15);
-  padding: 10px;
-  border-radius: 10px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .BarnesAndNoble {
@@ -135,6 +150,7 @@ div p {
 }
 
 .View-All {
+  margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 40px;

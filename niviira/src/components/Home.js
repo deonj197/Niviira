@@ -33,16 +33,18 @@ class Home extends Component {
           </div>
           <div className="Lower-Panel">
             <div className="Lower-Panel-Left">
-              <div className="Sellers">
-                <h2>Sellers</h2>
-              </div>
-              <div className="Media-Icons">
-                <img src={BarnesAndNoble} className="BarnesAndNoble"/>
-                <img src={Amazon} className="BarnesAndNoble"/>
-                <img src={Walmart} className="BarnesAndNoble"/>
-              </div>
-              <div className="View-All-Wrapper">
-                <button className="View-All">VIEW ALL</button>
+              <div className="Sellers-Box">
+                <div className="Sellers">
+                  <h2>Find It Here</h2>
+                </div>
+                <div className="Sellers-List">
+                  <img src={BarnesAndNoble} className="Sellers-Icon"/>
+                  <img src={Amazon} className="Sellers-Icon"/>
+                  <img src={Walmart} className="Sellers-Icon"/>
+                </div>
+                <div className="View-All-Wrapper">
+                  <button className="View-All">VIEW ALL</button>
+                </div>
               </div>
             </div>
             <div className="Lower-Panel-Right">
