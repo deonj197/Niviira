@@ -15,9 +15,10 @@ div p {
 
 .Upper-Panel {
   width: 100%;
-
+  height: 90%;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .Book-Cover-Wrapper {
@@ -30,17 +31,14 @@ div p {
 .Upper-Panel-Content {
   flex: 2;
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  color: white;
-  text-align: center;
   align-items: center;
   justify-content: center;
+  height: 150px;
 }
 
 .Upper-Panel-Header {
-  color: white;
-  font-style: italic;
+  color: black;
+  font-size: 72pt;
 }
 
 .Cover {
@@ -77,13 +75,13 @@ div p {
   flex: 1;
   display: flex;
   flex-direction: column;
-
 }
 
 .Lower-Panel-Left {
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 .Lower-Panel-Right {
@@ -128,7 +126,10 @@ div p {
 }
 
 .Social-Media-Icon {
-  height: 40%;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .Sellers-Icon {
@@ -158,4 +159,14 @@ div p {
   background-color: #FF5722;
   color: white;
   border-style: none;
+}
+
+.Portrait {
+  height: 100%;
+}
+
+.Portrait-Wrapper {
+  height:500px;
+  width:500px !important;
+  overflow: hidden;
 }

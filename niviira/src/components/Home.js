@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
 import Cover from "../images/Niviira_gold_2.jpg";
-import Google from "../images/google-plus.svg";
-import Facebook from "../images/facebook.svg";
-import Instagram from "../images/instagram.svg";
-import Twitter from "../images/twitter.svg";
-import BarnesAndNoble from "../images/Barnes_and_Noble_logo.svg";
-import Amazon from "../images/Amazon_logo.svg";
-import Walmart from "../images/Walmart_logo.svg";
+import Google from "../images/gplus.png";
+import Facebook from "../images/facebook.png";
+import Instagram from "../images/instagram.png";
+import Twitter from "../images/twitter.png";
+import Youtube from "../images/youtube.png";
+import ManLeft from "../images/Male-Avatar-Left.jpg";
+import ManRight from "../images/Male-Avatar-Right.jpg";
+import Hope from "../images/hope2.PNG";
 import '../styles/Home.css';
 
 class Home extends Component {
@@ -16,47 +17,19 @@ class Home extends Component {
       <div className="Main-Page">
         <div className="Body-Content">
           <div className="Upper-Panel">
-            <div className="Book-Cover-Wrapper">
-              <img src={Cover} className="Cover"/>
-              <div className="Book-Info">
-                <h2 style={{color:'#FFD600'}}>Available Now</h2>
-                <h3>Book One:</h3>
-                <h4>Niviira XXIV - Divinity Begins</h4>
-                <h4 className="Price">$17.99</h4>
-                <button type="button" className="Order-Now">Order Now</button>
-              </div>
-            </div>
+            <img style={{height:800}} className="Portrait" src={ManLeft} />
             <div className="Upper-Panel-Content">
-              <h2 className="Upper-Panel-Header">Let The Journey Begin</h2>
-              <p>"Insert Quote Here"</p>
+              <img style={{height:'100%'}} className="Portrait" src={Hope} />
             </div>
+            <img style={{height:800}} className="Portrait" src={ManRight} />
           </div>
           <div className="Lower-Panel">
-            <div className="Lower-Panel-Left">
-              <div className="Sellers-Box">
-                <div className="Sellers">
-                  <h2>Find It Here</h2>
-                </div>
-                <div className="Sellers-List">
-                  <img src={BarnesAndNoble} className="Sellers-Icon"/>
-                  <img src={Amazon} className="Sellers-Icon"/>
-                  <img src={Walmart} className="Sellers-Icon"/>
-                </div>
-                <div className="View-All-Wrapper">
-                  <button className="View-All">VIEW ALL</button>
-                </div>
-              </div>
-            </div>
-            <div className="Lower-Panel-Right">
-              <div className="Connect">
-                <h2>Connect With Us</h2>
-              </div>
-              <div className="Media-Icons">
-                <img src={Google} className="Social-Media-Icon"/>
-                <img src={Facebook} className="Social-Media-Icon"/>
-                <img src={Instagram} className="Social-Media-Icon"/>
-                <img src={Twitter} className="Social-Media-Icon"/>
-              </div>
+            <div className="Media-Icons">
+              <img src={Google} className="Social-Media-Icon" />
+              <img src={Facebook} className="Social-Media-Icon" />
+              <img src={Twitter} className="Social-Media-Icon" />
+              <img src={Instagram} className="Social-Media-Icon"/>
+              <img src={Youtube} className="Social-Media-Icon"/>
             </div>
           </div>
         </div>

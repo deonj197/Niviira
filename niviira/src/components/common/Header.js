@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Routes from '../Routes'
 import { NavLink } from 'react-router-dom';
+import Hope from "../../images/cjhope6.PNG";
 
 import '../../styles/Header.css'
 
@@ -10,7 +11,7 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="titleWrapper">
-          <h1 className="title">Niviira</h1>
+          <img style={{height:'50%'}} src={Hope} />
         </div>
         <div className="navWrapper">
           <ul className="navBar">
