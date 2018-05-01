@@ -7,17 +7,62 @@ div p {
 }
 
 .Main-Page {
-  flex: 1;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-image: url("../images/day_detroit.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Hope {
+  color: white;
+  font-family: "Georgia", "Times New Roman";
+  font-size: 72pt !important;
+  animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .Upper-Panel {
   width: 100%;
   height: 90%;
   display: flex;
-  align-items: center;
+  //align-items: center;
   overflow: hidden;
 }
 
@@ -32,7 +77,8 @@ div p {
   flex: 2;
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-top: 50px;
+  margin-left: 550px;
   height: 150px;
 }
 
@@ -126,8 +172,8 @@ div p {
 }
 
 .Social-Media-Icon {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -169,4 +215,9 @@ div p {
   height:500px;
   width:500px !important;
   overflow: hidden;
+}
+
+.background {
+  height: 100%;
+  position: absolute;
 }

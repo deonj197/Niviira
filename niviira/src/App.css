@@ -2,9 +2,19 @@
 
 .Background-Image {
      flex:1;
+     align-items: center;
+     background-size: auto;
+     background-color: red;
      width: 100%;
-     position: fixed;
-     background-size: cover;
+     height: 100%;
+}
+
+.Background {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: red;
+  width: 100%;
 }
 
 .Backdrop-View {
@@ -14,8 +24,26 @@
   height: 100%;
 }
 
+.Background-Right {
+  background-image: linear-gradient(#8b8b8b, #1c1c1c);
+  flex: 1;
+  width: 100%;
+}
+
+.Background-Left {
+  background-image: linear-gradient(#a9a9a9, #1c1c1c);
+  flex: 1;
+  width: 100%;
+}
+
 .Page {
   height: 100%;
   display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  align-items: center;
   flex-direction: column;
 }

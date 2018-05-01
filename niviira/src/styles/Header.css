@@ -5,6 +5,11 @@
   height: 10%;
 }
 
+.cjHope {
+  color: black;
+  font-family: "Georgia", "Times New Roman";
+}
+
 .title {
   font-weight: bold;
   font-family: fantasy;
@@ -13,7 +18,6 @@
 }
 
 .titleWrapper {
-  padding-top: 15px;
   padding-left: 20px;
   flex: 3;
   align-items: center;

@@ -11,7 +11,7 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="titleWrapper">
-          <img style={{height:'50%'}} src={Hope} />
+          <h3 className='cjHope'>C.J. HOPE</h3>
         </div>
         <div className="navWrapper">
           <ul className="navBar">
