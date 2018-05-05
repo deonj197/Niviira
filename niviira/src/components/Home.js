@@ -30,19 +30,19 @@ class Home extends Component {
             </div>
             <div className="Lower-Panel">
               <div className="Media-Icons">
-                <a>
+                <a alt="Coming Soon" target="_blank">
                   <img src={LinkedIn} className="Social-Media-Icon" />
                 </a>
-                <a href="https://www.facebook.com/TheCjHope/">
+                <a href="https://www.facebook.com/TheCjHope/" target="_blank">
                   <img src={Facebook} className="Social-Media-Icon" />
                 </a>
-                <a href="https://twitter.com/TheCjHope">
+                <a href="https://twitter.com/TheCjHope" target="_blank">
                   <img src={Twitter} className="Social-Media-Icon" />
                 </a>
-                <a href="https://www.instagram.com/TheCjHope/">
+                <a href="https://www.instagram.com/TheCjHope/" target="_blank">
                   <img src={Instagram} className="Social-Media-Icon"/>
                 </a>
-                <a alt="Coming Soon">
+                <a alt="Coming Soon" target="_blank">
                   <img src={Youtube} className="Social-Media-Icon"/>
                 </a>
               </div>
