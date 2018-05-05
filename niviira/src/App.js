@@ -11,7 +11,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 class App extends Component {
   render() {
     return (
-          <div>
+          <div className='App'>
             
             <Home />
             <Books />

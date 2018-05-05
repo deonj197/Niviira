@@ -9,7 +9,7 @@ import Youtube from "../images/youtube.png";
 import ManLeft from "../images/Male-Avatar-Left.jpg";
 import ManRight from "../images/Male-Avatar-Right.jpg";
 import Hope from "../images/hope2.PNG";
-import Background from "../images/day_detroit.jpg";
+import Background from "../images/full-website-image.jpg";
 import '../styles/Home.css';
 import { Parallax } from 'react-scroll-parallax';
 
