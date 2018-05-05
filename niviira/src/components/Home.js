@@ -24,7 +24,7 @@ class Home extends Component {
             <div className="Upper-Panel">
               {/*<img style={{height:800}} className="Portrait" src={ManLeft} />*/}
               <div className="Upper-Panel-Content">
-                <p className='Hope'>HOPE</p>
+               
               </div>
               {/*<img style={{height:800}} className="Portrait" src={ManRight} />*/}
             </div>

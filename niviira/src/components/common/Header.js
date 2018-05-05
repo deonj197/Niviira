@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Routes from '../Routes'
 import { NavLink } from 'react-router-dom';
 import Hope from "../../images/cjhope6.PNG";
+import logo from '../../images/logo-black.png'
+import FaBars from 'react-icons/lib/fa/bars'
 
 import '../../styles/Header.css'
 
@@ -9,26 +11,21 @@ import '../../styles/Header.css'
 class Header extends Component {
   render() {
     return (
-      <div className="header">
-        <div className="titleWrapper">
-          <h3 className='cjHope'>C.J. HOPE</h3>
-        </div>
-        <div className="navWrapper">
-          <ul className="navBar">
-            <li>
-                <NavLink exact className="Link" activeClassName="LinkActive" to="/">Home</NavLink>
-            </li>
-            <li>
-                <NavLink className="Link" activeClassName="LinkActive" to="/books">Books</NavLink>
-            </li>
-            <li>
-                <NavLink className="Link" activeClassName="LinkActive" to="/merchandise">Merchandise</NavLink>
-            </li>
-            <li>
-              <NavLink className="Link" activeClassName="LinkActive" to="/about">About</NavLink>
-            </li>
-          </ul>
-        </div>
+      <div className='header'> 
+          <div className='icon-left'>
+            <div className='icon-left-wrapper'>
+              <img src={logo} className='logo' />
+            </div>
+          </div>
+          <h3 className='cjHope'>HOPE</h3>
+          <div className='icon-right'> 
+            <div className='icon-right-wrapper'>     
+              <FaBars className='menu'/>
+            </div>
+          </div>
+          
+        
+        
       </div>
     );
   }
