@@ -1,0 +1,89 @@
+.merchandise {  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollers-wrapper {
+    height: 100%;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+
+.scrollers {
+    height: 80%;
+    width: 90%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroller-row {
+    flex: 1;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-container {
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.more {
+    width: 5%;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more:hover {
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.view-all {
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-all-button {
+    height: 100%;
+    width: 25%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.view-all-button:hover {
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+

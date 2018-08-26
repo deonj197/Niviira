@@ -24,11 +24,11 @@ class Home extends Component {
             <div className="Upper-Panel">
               {/*<img style={{height:800}} className="Portrait" src={ManLeft} />*/}
               <div className="Upper-Panel-Content">
-               
+              
               </div>
               {/*<img style={{height:800}} className="Portrait" src={ManRight} />*/}
             </div>
-            <div className="Lower-Panel">
+            {/*<div className="Lower-Panel">
               <div className="Media-Icons">
                 <a alt="Coming Soon" target="_blank">
                   <img src={LinkedIn} className="Social-Media-Icon" />
@@ -46,7 +46,7 @@ class Home extends Component {
                   <img src={Youtube} className="Social-Media-Icon"/>
                 </a>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </Parallax>

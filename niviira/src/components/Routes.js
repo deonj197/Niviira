@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Header } from './common/Header';
+import Header from './common/Header';
 
 import '../App.css';
 
@@ -13,13 +13,15 @@ import { About } from './About';
 const Routes = () => {
   return (
     <Router>
-      <div className="Page">
-        <Header />
+     
+        <div>
         <Route exact path="/" component={Home}/>
         <Route exact path="/books" component={Books}/>
         <Route exact path="/merchandise" component={Merchandise}/>
         <Route exact path="/about" component={About}/>
-      </div>
+        <Header />
+        </div>
+     
     </Router>
   );
 }
